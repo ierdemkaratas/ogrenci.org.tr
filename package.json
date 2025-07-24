@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ierdemkaratas.github.io/ogrenci.gov.tr",
+  "homepage": "https://ierdemkaratas.github.io/ogrenci.org.tr",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
