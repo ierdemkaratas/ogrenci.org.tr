@@ -9,9 +9,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
         <CustomRouter></CustomRouter>
-      </BrowserRouter>
     </>
   )
 }

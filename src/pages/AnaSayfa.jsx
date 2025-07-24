@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Products from '../api/Products.json';
 import CategoryMenu from '../components/CategoryMenu'; // Yeni CategoryMenu bileşeni import edildi
+import logo from '../assets/ty-web.svg';
 
 const AnaSayfa = () => {
 
@@ -44,7 +45,7 @@ const AnaSayfa = () => {
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img src="/ty-web.svg" alt="Trendyol Logo" className="h-8 md:h-15" /> {/* Logo boyutunu ayarlayın */}
+            <img src={logo} alt="Trendyol Logo" className="h-8 md:h-15" /> {/* Logo boyutunu ayarlayın */}
           </div>
 
           {/* Arama Çubuğu */}
